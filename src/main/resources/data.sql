@@ -1,0 +1,9 @@
+INSERT INTO GENRES(Name) VALUES ('Horror');
+INSERT INTO GENRES(Name) VALUES ('Triller');
+INSERT INTO GENRES(Name) VALUES ('Drama');
+INSERT INTO AUTHORS(FIO, Age) VALUES ('Johnson', 27);
+INSERT INTO AUTHORS(FIO, Age) VALUES ('Pushkin', 45);
+INSERT INTO AUTHORS(FIO, Age) VALUES ('Walter', 82);
+INSERT INTO BOOKS(Name, ID_Author, ID_Genre) VALUES ('Moon and Stars', 1, 1);
+INSERT INTO BOOKS(Name, ID_Author, ID_Genre) VALUES ('Lurkmore', 2, 2);
+INSERT INTO BOOKS(Name, ID_Author, ID_Genre) VALUES ('Sun', 3, 3);

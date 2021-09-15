@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:libraryDb
+    username: sa
+    password:
+  sql:
+    init:
+      schema-locations: schema.sql
+      data-locations: data.sql
+      mode: always
